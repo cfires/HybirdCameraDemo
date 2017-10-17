@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC91EC381F963EA20027334C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91EC371F963EA20027334C /* AppDelegate.m */; };
+		BC91EC3B1F963EA20027334C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91EC3A1F963EA20027334C /* ViewController.m */; };
+		BC91EC3E1F963EA20027334C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC91EC3C1F963EA20027334C /* Main.storyboard */; };
+		BC91EC401F963EA20027334C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC91EC3F1F963EA20027334C /* Assets.xcassets */; };
+		BC91EC431F963EA20027334C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC91EC411F963EA20027334C /* LaunchScreen.storyboard */; };
+		BC91EC461F963EA20027334C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91EC451F963EA20027334C /* main.m */; };
+		BC91EC6D1F963F470027334C /* WCCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91EC6C1F963F470027334C /* WCCWebView.m */; };
+		BC91EC701F963F620027334C /* UIImage+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91EC6F1F963F620027334C /* UIImage+Base64.m */; };
+		BC91EC741F96404E0027334C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BC91EC731F9640470027334C /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC91EC4C1F963EA20027334C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC91EC2B1F963EA20027334C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC91EC321F963EA20027334C;
+			remoteInfo = HybirdCameraDemo;
+		};
+		BC91EC571F963EA20027334C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC91EC2B1F963EA20027334C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC91EC321F963EA20027334C;
+			remoteInfo = HybirdCameraDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC91EC331F963EA20027334C /* HybirdCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybirdCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC91EC361F963EA20027334C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC91EC371F963EA20027334C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC91EC391F963EA20027334C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC91EC3A1F963EA20027334C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC91EC3D1F963EA20027334C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC91EC3F1F963EA20027334C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC91EC421F963EA20027334C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC91EC441F963EA20027334C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC91EC451F963EA20027334C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC91EC4B1F963EA20027334C /* HybirdCameraDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybirdCameraDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC91EC561F963EA20027334C /* HybirdCameraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybirdCameraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC91EC6B1F963F470027334C /* WCCWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCCWebView.h; sourceTree = "<group>"; };
+		BC91EC6C1F963F470027334C /* WCCWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCCWebView.m; sourceTree = "<group>"; };
+		BC91EC6E1F963F610027334C /* UIImage+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Base64.h"; sourceTree = "<group>"; };
+		BC91EC6F1F963F620027334C /* UIImage+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Base64.m"; sourceTree = "<group>"; };
+		BC91EC731F9640470027334C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC91EC301F963EA20027334C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC91EC481F963EA20027334C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC91EC531F963EA20027334C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC91EC2A1F963EA20027334C = {
+			isa = PBXGroup;
+			children = (
+				BC91EC351F963EA20027334C /* HybirdCameraDemo */,
+				BC91EC341F963EA20027334C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC91EC341F963EA20027334C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC91EC331F963EA20027334C /* HybirdCameraDemo.app */,
+				BC91EC4B1F963EA20027334C /* HybirdCameraDemoTests.xctest */,
+				BC91EC561F963EA20027334C /* HybirdCameraDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC91EC351F963EA20027334C /* HybirdCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC91EC361F963EA20027334C /* AppDelegate.h */,
+				BC91EC371F963EA20027334C /* AppDelegate.m */,
+				BC91EC391F963EA20027334C /* ViewController.h */,
+				BC91EC3A1F963EA20027334C /* ViewController.m */,
+				BC91EC6B1F963F470027334C /* WCCWebView.h */,
+				BC91EC6C1F963F470027334C /* WCCWebView.m */,
+				BC91EC6E1F963F610027334C /* UIImage+Base64.h */,
+				BC91EC6F1F963F620027334C /* UIImage+Base64.m */,
+				BC91EC3C1F963EA20027334C /* Main.storyboard */,
+				BC91EC3F1F963EA20027334C /* Assets.xcassets */,
+				BC91EC411F963EA20027334C /* LaunchScreen.storyboard */,
+				BC91EC441F963EA20027334C /* Info.plist */,
+				BC91EC451F963EA20027334C /* main.m */,
+				BC91EC711F9640470027334C /* LocalWeb */,
+			);
+			path = HybirdCameraDemo;
+			sourceTree = "<group>";
+		};
+		BC91EC711F9640470027334C /* LocalWeb */ = {
+			isa = PBXGroup;
+			children = (
+				BC91EC731F9640470027334C /* index.html */,
+			);
+			path = LocalWeb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC91EC321F963EA20027334C /* HybirdCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC91EC5F1F963EA20027334C /* Build configuration list for PBXNativeTarget "HybirdCameraDemo" */;
+			buildPhases = (
+				BC91EC2F1F963EA20027334C /* Sources */,
+				BC91EC301F963EA20027334C /* Frameworks */,
+				BC91EC311F963EA20027334C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybirdCameraDemo;
+			productName = HybirdCameraDemo;
+			productReference = BC91EC331F963EA20027334C /* HybirdCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC91EC4A1F963EA20027334C /* HybirdCameraDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC91EC621F963EA20027334C /* Build configuration list for PBXNativeTarget "HybirdCameraDemoTests" */;
+			buildPhases = (
+				BC91EC471F963EA20027334C /* Sources */,
+				BC91EC481F963EA20027334C /* Frameworks */,
+				BC91EC491F963EA20027334C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC91EC4D1F963EA20027334C /* PBXTargetDependency */,
+			);
+			name = HybirdCameraDemoTests;
+			productName = HybirdCameraDemoTests;
+			productReference = BC91EC4B1F963EA20027334C /* HybirdCameraDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC91EC551F963EA20027334C /* HybirdCameraDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC91EC651F963EA20027334C /* Build configuration list for PBXNativeTarget "HybirdCameraDemoUITests" */;
+			buildPhases = (
+				BC91EC521F963EA20027334C /* Sources */,
+				BC91EC531F963EA20027334C /* Frameworks */,
+				BC91EC541F963EA20027334C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC91EC581F963EA20027334C /* PBXTargetDependency */,
+			);
+			name = HybirdCameraDemoUITests;
+			productName = HybirdCameraDemoUITests;
+			productReference = BC91EC561F963EA20027334C /* HybirdCameraDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC91EC2B1F963EA20027334C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Lision;
+				TargetAttributes = {
+					BC91EC321F963EA20027334C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BC91EC4A1F963EA20027334C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC91EC321F963EA20027334C;
+					};
+					BC91EC551F963EA20027334C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC91EC321F963EA20027334C;
+					};
+				};
+			};
+			buildConfigurationList = BC91EC2E1F963EA20027334C /* Build configuration list for PBXProject "HybirdCameraDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC91EC2A1F963EA20027334C;
+			productRefGroup = BC91EC341F963EA20027334C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC91EC321F963EA20027334C /* HybirdCameraDemo */,
+				BC91EC4A1F963EA20027334C /* HybirdCameraDemoTests */,
+				BC91EC551F963EA20027334C /* HybirdCameraDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC91EC311F963EA20027334C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC91EC741F96404E0027334C /* index.html in Resources */,
+				BC91EC431F963EA20027334C /* LaunchScreen.storyboard in Resources */,
+				BC91EC401F963EA20027334C /* Assets.xcassets in Resources */,
+				BC91EC3E1F963EA20027334C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC91EC491F963EA20027334C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC91EC541F963EA20027334C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC91EC2F1F963EA20027334C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC91EC3B1F963EA20027334C /* ViewController.m in Sources */,
+				BC91EC6D1F963F470027334C /* WCCWebView.m in Sources */,
+				BC91EC461F963EA20027334C /* main.m in Sources */,
+				BC91EC381F963EA20027334C /* AppDelegate.m in Sources */,
+				BC91EC701F963F620027334C /* UIImage+Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC91EC471F963EA20027334C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC91EC521F963EA20027334C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC91EC4D1F963EA20027334C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC91EC321F963EA20027334C /* HybirdCameraDemo */;
+			targetProxy = BC91EC4C1F963EA20027334C /* PBXContainerItemProxy */;
+		};
+		BC91EC581F963EA20027334C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC91EC321F963EA20027334C /* HybirdCameraDemo */;
+			targetProxy = BC91EC571F963EA20027334C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC91EC3C1F963EA20027334C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC91EC3D1F963EA20027334C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC91EC411F963EA20027334C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC91EC421F963EA20027334C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC91EC5D1F963EA20027334C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC91EC5E1F963EA20027334C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC91EC601F963EA20027334C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJTP8XBT2V;
+				INFOPLIST_FILE = HybirdCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tan.tommy.h28yeh4fu2we7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC91EC611F963EA20027334C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJTP8XBT2V;
+				INFOPLIST_FILE = HybirdCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tan.tommy.h28yeh4fu2we7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BC91EC631F963EA20027334C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJTP8XBT2V;
+				INFOPLIST_FILE = HybirdCameraDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tan.tommy.HybirdCameraDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybirdCameraDemo.app/HybirdCameraDemo";
+			};
+			name = Debug;
+		};
+		BC91EC641F963EA20027334C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJTP8XBT2V;
+				INFOPLIST_FILE = HybirdCameraDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tan.tommy.HybirdCameraDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybirdCameraDemo.app/HybirdCameraDemo";
+			};
+			name = Release;
+		};
+		BC91EC661F963EA20027334C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJTP8XBT2V;
+				INFOPLIST_FILE = HybirdCameraDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tan.tommy.HybirdCameraDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HybirdCameraDemo;
+			};
+			name = Debug;
+		};
+		BC91EC671F963EA20027334C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJTP8XBT2V;
+				INFOPLIST_FILE = HybirdCameraDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tan.tommy.HybirdCameraDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HybirdCameraDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC91EC2E1F963EA20027334C /* Build configuration list for PBXProject "HybirdCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC91EC5D1F963EA20027334C /* Debug */,
+				BC91EC5E1F963EA20027334C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC91EC5F1F963EA20027334C /* Build configuration list for PBXNativeTarget "HybirdCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC91EC601F963EA20027334C /* Debug */,
+				BC91EC611F963EA20027334C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC91EC621F963EA20027334C /* Build configuration list for PBXNativeTarget "HybirdCameraDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC91EC631F963EA20027334C /* Debug */,
+				BC91EC641F963EA20027334C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC91EC651F963EA20027334C /* Build configuration list for PBXNativeTarget "HybirdCameraDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC91EC661F963EA20027334C /* Debug */,
+				BC91EC671F963EA20027334C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC91EC2B1F963EA20027334C /* Project object */;
+}
